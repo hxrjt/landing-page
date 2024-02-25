@@ -1,14 +1,20 @@
-
+body{
+    background-color: black;
+    color: white;
+}
 .header{
     display: flex;
     background-color: black;
     color: white;
-    height:70px;
+    border-bottom: 1px white solid;
+    margin:0px;
+    /* height:70px; */
 }
 .dropdowns{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 100px;
     
 }
 .type{
@@ -28,10 +34,24 @@
     align-items: center;
     float: right;
 }
+.main{
+    margin-top: 100px;
+}
 button{
     flex:1;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 60px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: white;
+    color: blue;
 }
 img{
     width: 85px;
     flex:1;
+
 }
