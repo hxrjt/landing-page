@@ -50,8 +50,14 @@ button:hover{
     background-color: white;
     color: blue;
 }
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.build{
+    width: 150px;
+}
 img{
     width: 85px;
     flex:1;
-
 }
